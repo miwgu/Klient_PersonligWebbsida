@@ -2,14 +2,62 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 40%;
-    border-radius: 10%;
+    width: 35%;
+    border-radius: 60%;
   }
 
   li{
     list-style:none;
   }
 
-div{
-    background-color: blanchedalmond;
+  #base{
+    position: relative;
+  }
+
+  header{
+    position: relative;
+    z-index: 30;
+    
+  }
+
+  .navbar-brand{
+    font-family: 'Sacramento', cursive;
+    font-size: 30px;
 }
+
+  .leftdesign{
+    position: absolute;
+    z-index: 10;
+    float: left;
+    width: 40%;
+    padding: 10px;
+    background-color: #fbe9bc;
+    height:400px;
+  }
+
+  .myname{
+    position: relative;
+    z-index: 20;
+    padding: 10px;
+    font-family: 'Sacramento', cursive;
+    font-size: 60px;
+    text-shadow: 3px 3px 3px #ababab;
+    color: rgba(161, 98, 31, 0.973);    
+  }
+
+  .photo{
+    position: relative;
+    z-index: 20;
+  }
+
+  .contents{
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+    height: 100px;
+  }
+  .contents1,.contents2{
+    position: relative;
+    z-index: 20;
+  }
