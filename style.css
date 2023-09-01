@@ -1,7 +1,7 @@
 * {
     font-family: 'M PLUS Rounded 1c', sans-serif;
-
 }
+
 img {
     display: block;
     margin-left: auto;
@@ -23,6 +23,12 @@ img {
     z-index: 30;
     
   }
+
+  a:hover {
+    background-color: rgba(162, 252, 191, 0.518);
+    opacity: 0.5;
+    border-radius: 60%;
+    }
 
   .navbar-brand{
     font-family: 'Sacramento', cursive;
@@ -46,8 +52,8 @@ img {
     z-index: 30;
     float: right;
     width: 60%;
+    height: 20%;
     padding-left: 100px;
-    padding-bottom: 0px;
     opacity: 0.6;
   }
 
@@ -76,7 +82,7 @@ img {
   }
   .contents1,.contents2{
     position: relative;
-    z-index: 20;
+    z-index: 30;
   }
   .contact{
     font-weight: bolder;
