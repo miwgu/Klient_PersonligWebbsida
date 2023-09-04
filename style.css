@@ -2,6 +2,7 @@
     font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
+
 img {
     display: block;
     margin-left: auto;
@@ -10,19 +11,35 @@ img {
     border-radius: 60%;
   }
 
-  li{
-    list-style:none;
-  }
-
-  #base{
-    position: relative;
-  }
-
-  header{
-    position: relative;
-    z-index: 30;
+  #img_photo{
     
+    width: 100%;
+    border-radius: 0%;
   }
+  #programming,#education,#hobby{
+    text-align: left
+
+  }
+
+  #text {
+  padding-top: 10px;
+  color: #8f8d8d;
+  text-align: left
+  }
+
+    li{
+        list-style:none;
+    }
+
+    base{
+        position: relative;
+    }
+
+    header{
+        position: relative;
+        z-index: 40;
+        
+    }
 
   a:hover {
     background-color: rgba(162, 252, 191, 0.518);
@@ -30,36 +47,39 @@ img {
     border-radius: 60%;
     }
 
+  nav{
+    background-color:rgba(66, 134, 201, 0.5) ;
+    box-shadow: 0 0 8px gray;
+
+  }
   .navbar-brand{
     font-family: 'Sacramento', cursive;
     font-size: 30px;
 }
-/*
-.listcontainer{
-	background-color: #f7f7f7;
-	max-width: 360px;
-	margin: 100px auto;
-	box-shadow: 0px 0px 7px 1px grey;
-}
-*/
 
-input{
-	background-color: #2980b9;
-	color:white;
-	margin: 0;
-	padding: 10px 20px;
-	font-size: 24px;
-	font-weight: normal;
-  width: calc(100% - 40px);
-  border: none;
-}
 .dropdown{
-	list-style: none;
-	margin: 0;
-	padding: 0;
-  max-height: 50px;
+    /*display: none;*/
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-height: 40px;
+  width: 300px;
+  background-color: #fff;
   overflow-y: scroll;
+  border-radius: 4%;
 }
+
+.dropdown a:hover{
+    /*background-color: #a2e4f9;*/
+    list-style: square;
+    border-radius: 0%;
+    width:100%;
+    
+    }
+  #dropdown-l :hover{
+    background-color: #a2e4f9;
+  }
+
 .dropdown-l{	
 	cursor: pointer;
 	background-color: #fff;
@@ -67,6 +87,11 @@ input{
 	line-height: 40px;
 	color: #666;
   padding-left: 20px;
+}
+
+.dropdown-i{
+    text-decoration: none;
+
 }
 
 
@@ -112,7 +137,8 @@ input{
     max-width: 1200px;
     margin: 0 auto;
     padding: 10px;
-    height: 100px;
+    width: 80%;
+   /* height: 100px;*/
   }
   .contents1,.contents2{
     position: relative;
@@ -121,3 +147,5 @@ input{
   .contact{
     font-weight: bolder;
   }
+
+

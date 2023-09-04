@@ -22,7 +22,7 @@
 <div class="container-lg">
     <div class="base">
         <header >
-        <nav class="navbar navbar-expand-lg fixed-top"style="background-color:rgba(66, 134, 201, 0.16) ;">
+        <nav class="navbar navbar-expand-lg fixed-top">
             <div class="container-fluid" style="border-bottom: 3px solid #3b6225e1;">
                 <a class="navbar-brand"  href="index.html">My profile</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,18 +35,19 @@
                     <li class="nav-item"><a class="nav-link active" aria-current="page" href="#presentation">Självpresentation</a></li>
                     <li class="nav-item"><a class="nav-link active" aria-current="page" href="kontakt.html">Kontakt</a></li>
                 </ul>
-
-                
+                      
                     <form class="d-flex" role="search">
-                        <input id="search-i" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <input id="search-i" class="form-control me-2"  type="search" placeholder="Search" aria-label="Search">
 
-                        <ul class="dropdown">
-                            <li><a class="dropdown-i" href="#photo">Bild</a></li>
-                            <li><a class="dropdown-i" href="#programming">Programmering</a></li>
-                            <li><a class="dropdown-i" href="#education">Mina utbuildningar</a></li>
-                            <li><a class="dropdown-i" href="#hobby">Min hobby</a></li>
+                        <ul class="dropdown" id="list">
+                            <li id="dropdown-l"><a class="dropdown-i" href="#photo">Bild</a></li>
+                            <li id="dropdown-l"><a class="dropdown-i" href="#programming">Programmering</a></li>
+                            <li id="dropdown-l"><a class="dropdown-i" href="#education">Mina utbuildningar</a></li>
+                            <li id="dropdown-l"><a class="dropdown-i" href="#hobby">Min hobby</a></li>
                         </ul>
                     </form>
+
+                
 
             </div>
         </div>   
@@ -61,27 +62,56 @@
             
         
         <div class="contents">
-            
-            <h1 class="contents1" id="presentation">Självpresentation</h1>
+          <div class="container text-center">
 
-            <ul class="contents2">
-                <li id="programming">Programmering</li>
-                <li>
-                <p style="text-align: left">Jag är Java programmerare och är intresserad av front-end utveckling också. Jag vill jobba som fullstackutvecklare.</p> 
-                </li>
-                <li><br></li>
-                <li id="education">Mina Utbuildningar</li>
-                <li>
-                <p style="text-align: left">Jag studerade javaprogrammering och har även masterexamen i hälsoinformatik vid Karolinska Institutet och Stockholms universitet. Jag har kandidatexamen i psykologi från Japan.</p> 
-                </li>
-                <li><br></li>
-                <li id="hobby">Min hobby</li>
-                <li>
-                <p style="text-align: left">Att göra illustrationer och skapa konst är något jag verklige gillar.När någon är nöjd med mina skapelser blir jag glad. Det vore kul att få använda min kreativitet även när
+            
+            <h1 class="contents1" id="presentation" style="text-shadow: 1px 5px 5px #fff;">Självpresentation</h1>
+            <div><br></div>
+            <div class="row">
+            <!-- <div class="contents2"> -->
+              <div class="col-sm-8">
+                <img id="img_photo" src="/images/workplace.jpg" alt="the image for programming ">
+              </div>
+
+              <div class="col-sm-4" style="padding-top:20px ;">
+                <h3 id="programming">Programmering</h3>
+
+                <p id="text" style="text-align: left">Jag är Java programmerare och är intresserad av front-end utveckling också. Jag vill jobba som fullstackutvecklare.</p> 
+
+              </div>
+              <div><br></div>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-4" style="padding-top:20px ;">
+                <h3 id="education">Mina Utbuildningar</h3>
+                
+                <p id="text" style="text-align: left">Jag studerade javaprogrammering och har även masterexamen i hälsoinformatik vid Karolinska Institutet och Stockholms universitet. Jag har kandidatexamen i psykologi från Japan.</p> 
+                
+              </div>
+
+              <div class="col-sm-8">
+                <img id="img_photo" src="images/book.jpg" alt="the image for my education">
+              </div>
+              <div><br></div>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-8">
+                <img id="img_photo" src="images/colorful.jpg" alt="the image for my hobby">
+              </div>
+
+              <div class="col-sm-4" style="padding-top:20px ;">
+                <h3 id="hobby">Min hobby</h3>
+                
+                <p id="text" style="text-align: left">Att göra illustrationer och skapa konst är något jag verklige gillar.När någon är nöjd med mina skapelser blir jag glad. Det vore kul att få använda min kreativitet även när
                     jag utvecklar program.</p> 
-                </li>
-                <li><br></li>
-            </ul>
+                
+             </div>
+            </div>
+            <!-- </div> -->
+           
+          </div>
         </div>
 
     </div> 
