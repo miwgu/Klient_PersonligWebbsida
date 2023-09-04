@@ -48,8 +48,10 @@ img {
     }
 
   nav{
-    background-color:rgba(66, 134, 201, 0.5) ;
-    box-shadow: 0 0 8px gray;
+    width: 100%;
+    padding: auto;
+    background-color:rgba(85, 146, 208, 0.303) ;
+    /*box-shadow: 0 0 8px gray;*/
 
   }
   .navbar-brand{
@@ -67,7 +69,7 @@ form:hover .dropdown{
   margin: 0;
   padding: 0;
   max-height: 40px;
-  width: 200px;
+  width: 80%;
   background-color: #ffff;
   overflow-y: scroll;
   border-radius: 4%;
@@ -104,7 +106,7 @@ form:hover .dropdown{
     z-index: 10;
     float: left;
     width: 40%;
-    padding: 10px;
+    padding: 0px;
     background-color: #fbe9bc;
     opacity: 0.5;
     height:400px;
