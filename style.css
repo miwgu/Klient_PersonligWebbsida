@@ -37,7 +37,7 @@ img {
 
     header{
         position: relative;
-        z-index: 40;
+        z-index: 30;
         
     }
 
@@ -57,14 +57,18 @@ img {
     font-size: 30px;
 }
 
+form:hover .dropdown{
+  display: block;
+}
+
 .dropdown{
-    /*display: none;*/
+  display: none;
   list-style: none;
   margin: 0;
   padding: 0;
   max-height: 40px;
-  width: 300px;
-  background-color: #fff;
+  width: 200px;
+  background-color: #ffff;
   overflow-y: scroll;
   border-radius: 4%;
 }
