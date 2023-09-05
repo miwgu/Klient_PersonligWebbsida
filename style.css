@@ -63,36 +63,55 @@ form:hover .dropdown{
   display: block;
 }
 
+
 .dropdown{
   display: none;
   list-style: none;
   margin: 0;
   padding: 0;
   max-height: 40px;
-  width: 80%;
+  width: 100%;
   background-color: #ffff;
   overflow-y: scroll;
   border-radius: 4%;
 }
+
+/*
+.dropdown{
+  display: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-height: 40px;
+  width: 100%;
+  position:absolute;
+  top: 60px;
+  
+  background-color: #ffff;
+  overflow-y: scroll;
+  border-radius: 4%;
+}*/
 
 .dropdown a:hover{
     /*background-color: #a2e4f9;*/
     list-style: square;
     border-radius: 0%;
     width:100%;
-    
     }
-  #dropdown-l :hover{
-    background-color: #a2e4f9;
-  }
 
-.dropdown-l{	
+
+#dropdown-l{
 	cursor: pointer;
-	background-color: #fff;
-	height: 40px;
-	line-height: 40px;
+	background-color: #ffff;
+	height: 35px;
+	/*line-height: 40px;*/
+  width: 150px;
 	color: #666;
   padding-left: 20px;
+}
+
+#dropdown-l :hover{
+  background-color: #a2e4f9;
 }
 
 .dropdown-i{
