@@ -183,6 +183,7 @@ form:hover .dropdown{
  }
  */
 
+
  #back_to_top{
  padding: 5px;
   flex: 50%;
@@ -195,11 +196,9 @@ form:hover .dropdown{
   float: left;
 
  }
-
-
-
-   
-   
+ #contact{
+  padding: 40px;
+}
 
 
     /*Extra small devices phone*/
@@ -210,8 +209,6 @@ form:hover .dropdown{
       background-color: #a2e4f9;
     }
 
-
-
     #footer_div{
       text-align: center;
     }
@@ -220,12 +217,13 @@ form:hover .dropdown{
       float: none;
     }
 
-      /*
-    #back_to_top{
-      position: absolute; 
-      bottom: 2;
+    #contact{
+      padding: 10px;
     }
-    */
+    #contact_leftdesign{
+      height: 700px;
+    }
+
   }
 
   @media only screen and (min-width: 600px){
@@ -234,6 +232,7 @@ form:hover .dropdown{
       height: 180px;
       background-color:red ;
     }
+
     }
 
   @media only screen and (min-width: 1200px){
@@ -250,6 +249,8 @@ form:hover .dropdown{
       #back_to_end{
         float:right;
       }
+
+
      } 
     }  
 
