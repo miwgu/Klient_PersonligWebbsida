@@ -37,6 +37,7 @@
         </nav>
        </header>
 
+
             <div class="leftdesign" style="height:600px;"></div>
             <h1 class="myname">Miwa Guhrés</h1>
 
@@ -124,7 +125,7 @@
                             <input type="text" class="form-control" id="yourname" placeholder="https://www.linkedin.com/in... ">
                          </div>
 
-                   <button type="submit" class="btn btn-outline-secondary" >
+                   <button type="button" class="btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#poolModal">
                     Skicka
                    </button>
         
@@ -133,10 +134,28 @@
             </div>
            </div>
         </div>
-        
 
     </div> 
 </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="poolModal" tabindex="-1">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Tack!</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                Din änket har skickats.
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+            </div>
+        </div>
+       <!-- Modal end-->
 
 
 
