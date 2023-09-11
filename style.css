@@ -205,6 +205,7 @@ form:hover .dropdown{
   
   @media only screen and (max-width: 600px){
     footer{
+      position: relative;
       height: 220px;
       background-color: #a2e4f9;
     }
@@ -228,7 +229,7 @@ form:hover .dropdown{
 
   @media only screen and (min-width: 600px){
     footer{
-
+      position: relative;
       height: 180px;
       background-color:red ;
     }
