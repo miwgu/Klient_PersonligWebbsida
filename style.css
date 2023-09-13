@@ -45,7 +45,7 @@ img {
   a:hover {
     background-color: rgba(162, 252, 191, 0.518);
     opacity: 0.5;
-    border-radius: 60%;
+    border-radius: 20px;
     }
 
   nav{
@@ -75,7 +75,7 @@ form:hover .dropdown{
   width: 100%;
   background-color: #ffff;
   overflow-y: scroll;
-  border-radius: 4%;
+  border-radius: 5px;
 }
 
 /*
@@ -240,7 +240,7 @@ form:hover .dropdown{
   
       text-align: center;
       padding: 20px; 
-      background-color: #ffff;
+      background-color:#ffff;
       bottom: 0;
   
       #back_to_end{
