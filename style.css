@@ -78,22 +78,6 @@ form:hover .dropdown{
   border-radius: 5px;
 }
 
-/*
-.dropdown{
-  display: none;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  max-height: 40px;
-  width: 100%;
-  position:absolute;
-  top: 60px;
-  
-  background-color: #ffff;
-  overflow-y: scroll;
-  border-radius: 4%;
-}*/
-
 .dropdown a:hover{
     background-color: #ffffff00;
     color: #ed9f1a;
@@ -116,7 +100,6 @@ form:hover .dropdown{
     text-decoration: none;
 
 }
-
 
   .leftdesign{
     position: absolute;
@@ -187,7 +170,7 @@ form:hover .dropdown{
 
  }
  #contact{
-  padding: 40px;
+  padding: 10px;
 }
 
 
@@ -195,7 +178,6 @@ form:hover .dropdown{
   
   @media only screen and (max-width: 600px){
     footer{
-      position: relative;
       height: 220px;
       background-color: #a2e4f9;
     }
@@ -218,11 +200,15 @@ form:hover .dropdown{
     .contents2{
      margin: 0 ;
   }
+
+    .contents1{
+     text-shadow: 1px 5px 5px #fff;
+     margin-bottom: 30px;
+   }
 }
 
   @media only screen and (min-width: 600px){
     footer{
-      position: relative;
       height: 180px;
       background-color:red ;
     }
@@ -231,11 +217,15 @@ form:hover .dropdown{
       margin: 0 50px ;
    }
 
+    .contents1{
+      text-shadow: 1px 5px 5px #fff;
+      margin-bottom: 120px;
+   }
+
     }
 
   @media only screen and (min-width: 1200px){
     footer {
-      position: relative;
       width: 100% ;
       height: 200px;
       text-align: center;
@@ -243,7 +233,7 @@ form:hover .dropdown{
       background-color:#ffff;
       bottom: 0;
   
-      #back_to_end{
+      #back_to_top{
         float:right;
       }
 
@@ -252,6 +242,10 @@ form:hover .dropdown{
      .contents2{
       margin: 0 50px ;
    }
+    .contents1{
+      text-shadow: 1px 5px 5px #fff;
+      margin-bottom: 120px;
+     }
     }  
 
 
