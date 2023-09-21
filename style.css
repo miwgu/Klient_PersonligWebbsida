@@ -179,13 +179,17 @@ form:hover .dropdown{
   height:100%;
  }
 
+  #pool_contents2{
+    background-image: url('images/art_background_2.png');
+
+    background-position: center top;
+  }
 
     /*Extra small devices phone*/
   
   @media only screen and (max-width: 600px){
     footer{
       height: 220px;
-      background-color: #a2e4f9;
     }
 
     #footer_div{
@@ -216,7 +220,6 @@ form:hover .dropdown{
   @media only screen and (min-width: 601px){
     footer{
       height: 180px;
-      background-color:red ;
     }
 
     .contents2{
