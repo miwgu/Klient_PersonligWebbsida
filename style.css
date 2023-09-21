@@ -11,7 +11,7 @@ img {
     border-radius: 60%;
   }
 
-  #img_photo{
+  #img_photo1, #img_photo2, #img_photo3{
     width: 100%;
     border-radius: 0%;
   }
@@ -21,7 +21,7 @@ img {
   }
 
 
-  #text {
+  #mytext p {
     font-size: 17px;
     padding-top: 10px;
     color: #8f8d8d;
@@ -87,18 +87,17 @@ form:hover .dropdown{
     width:100%;
     }
 
-#dropdown-l{
+#mylist li{
   padding: 5px 0px;
 	cursor: pointer;
 	background-color: #ffff;
 	height: 35px;
-	/*line-height: 40px;*/
   width: 150px;
 	color: #666;
   padding-left: 20px;
 }
 
-.dropdown-i{
+#mylist a{
     text-decoration: none;
 
 }

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
     <title>index</title>
 
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">   
     <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
@@ -39,11 +39,11 @@
                     <form class="d-flex" role="search">
                         <input id="search-i" class="form-control me-2"  type="search" placeholder="Sök" aria-label="Search" style="width: 200px;" maxlength="20">
 
-                        <ul class="dropdown" id="list">
-                            <li id="dropdown-l"><a class="dropdown-i" href="#photo">Bild</a></li>
-                            <li id="dropdown-l"><a class="dropdown-i" href="#programming">Programmering</a></li>
-                            <li id="dropdown-l"><a class="dropdown-i" href="#education">Utbuildningar</a></li>
-                            <li id="dropdown-l"><a class="dropdown-i" href="#hobby">Hobby</a></li>
+                        <ul class="dropdown" id="mylist">
+                            <li><a href="#photo">Bild</a></li>
+                            <li><a href="#programming">Programmering</a></li>
+                            <li><a href="#education">Utbuildningar</a></li>
+                            <li><a href="#hobby">Hobby</a></li>
                         </ul>
                     </form>
 
@@ -61,7 +61,7 @@
             
         
         <div class="contents">
-          <div class="container text-center">
+          <div class="container text-center" id="mytext">
 
             
             <h1 class="contents1" id="presentation">Självpresentation</h1>
@@ -70,18 +70,19 @@
             <div class="row">
             <!-- <div class="contents2"> -->
               <div class="col-sm-8">
-                <img id="img_photo" src="/images/workplace.jpg" alt="the image for programming ">
+                <img id="img_photo1" src="/images/workplace.jpg" alt="the image for programming ">
               </div>
 
               <div class="col-sm-4" style="padding-top:20px ;">
                 <h3>Programmering</h3>
 
-                <p id="text" style="text-align: left">Jag är Java programmerare och är intresserad av front-end utveckling också. Jag vill jobba som fullstackutvecklare.</p> 
+                <p style="text-align: left">Jag är Java programmerare och är intresserad av front-end utveckling också. Jag vill jobba som fullstackutvecklare.</p> 
 
-                <button type="button" class="btn btn-outline-secondary btn-lg" style="background-color: rgb(217, 213, 213);">
-                    
-                    <a href="https://github.com/miwgu" target="_blank"> <img  src="images/icons8-github-64.png" alt="github icon"></a>
-                </button>
+                <a class="btn btn-secondary" role="button" href="https://github.com/miwgu" target="_blank">
+                 
+                      <img  src="images/icons8-github-64.png" alt="github icon">
+                  
+                </a>
               </div>
               <div id="education"><br></div>
               <div><br></div>
@@ -91,25 +92,25 @@
               <div class="col-sm-4" style="padding-top:20px ;">
                 <h3 >Mina Utbuildningar</h3>
                 
-                <p id="text" style="text-align: left">Jag studerade javaprogrammering och har även masterexamen i hälsoinformatik vid Karolinska Institutet och Stockholms universitet. Jag har kandidatexamen i psykologi från Japan.</p> 
+                <p style="text-align: left">Jag studerade javaprogrammering och har även masterexamen i hälsoinformatik vid Karolinska Institutet och Stockholms universitet. Jag har kandidatexamen i psykologi från Japan.</p> 
                 
               </div>
 
               <div class="col-sm-8">
-                <img id="img_photo" src="images/book.jpg" alt="the image for my education">
+                <img id="img_photo2" src="images/book.jpg" alt="the image for my education">
               </div>
               <div><br></div>
             </div>
 
             <div class="row">
               <div class="col-sm-8">
-                <img id="img_photo" src="images/colorful.jpg" alt="the image for my hobby">
+                <img id="img_photo3" src="images/colorful.jpg" alt="the image for my hobby">
               </div>
 
               <div class="col-sm-4" style="padding-top:20px ;">
                 <h3 id="hobby">Min hobby</h3>
                 
-                <p id="text" style="text-align: left">Att göra illustrationer och skapa konst är något jag verklige gillar.När någon är nöjd med mina skapelser blir jag glad. Det vore kul att få använda min kreativitet även när
+                <p style="text-align: left">Att göra illustrationer och skapa konst är något jag verklige gillar.När någon är nöjd med mina skapelser blir jag glad. Det vore kul att få använda min kreativitet även när
                     jag utvecklar program.</p> 
                 
              </div>
@@ -127,7 +128,7 @@
 </div>
 <footer class="container" >
   <div id="footer_div">
-    <hr style="color: rgb(58, 55, 55); padding-top: 30px;"/>
+    <hr style="color: rgb(58, 55, 55); padding-top: 30px;">
         <p id="copyright" style="color: rgb(113, 110, 110);">Copyright &copy; 2023 – Miwa Guhrés – miwa.guhres@hotmail.com</p>
         <p id="back_to_top"  ><a href="">Tillbacka till top</a></p>
   </div>
